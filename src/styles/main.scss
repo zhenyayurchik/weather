@@ -1,0 +1,16 @@
+@import './search.scss';
+@import './result.scss';
+@import './variables.scss';
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lighten($color1, 10%);
+  height: 100vh;
+  overflow: hidden;
+}
+
+*, *:before, *:after {
+box-sizing: border-box;
+}
